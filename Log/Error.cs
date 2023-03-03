@@ -10,7 +10,7 @@ namespace WebCommon.Log
     /// <summary>
     /// 错误日志工具类 <see cref="Error" />
     /// </summary>
-    public class Error
+    public static class Error
     {
         /// <summary>
         /// 写一条日志

@@ -9,7 +9,7 @@ namespace WebCommon.Log
     /// <summary>
     /// 消息日志工具类 <see cref="Info" />
     /// </summary>
-    public class Info
+    public static class Info
     {
         /// <summary>
         /// 写一条日志

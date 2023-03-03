@@ -9,7 +9,7 @@ namespace WebCommon.Log
     /// <summary>
     /// 警告日志工具类 <see cref="Warn" />
     /// </summary>
-    public class Warn
+    public static class Warn
     {
         /// <summary>
         /// 写一条日志
