@@ -58,9 +58,7 @@ namespace WebCommon.Log
                 {
                     writer.WriteLine("[级别]：" + log.level);
                     writer.WriteLine("[时间]：" + DateTime.Now.ToString());
-                    writer.WriteLine("[类名]：" + log.stackFrame.GetMethod().DeclaringType.FullName);
-                    writer.WriteLine("[方法]：" + log.stackFrame.GetMethod().Name);
-                    writer.WriteLine("[行号]：" + log.stackFrame.GetFileLineNumber());
+                    writer.WriteLine("[方法]：" + log.stackFrame.GetMethod().DeclaringType.FullName);
 
                     if (!string.IsNullOrEmpty(log.message))
                     {
